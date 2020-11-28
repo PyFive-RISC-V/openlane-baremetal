@@ -43,6 +43,8 @@ cd $PDK_ROOT
 git clone https://github.com/google/skywater-pdk.git
 cd skywater-pdk
 git submodule update --init libraries/sky130_fd_sc_hd/latest
+git submodule update --init libraries/sky130_fd_io/latest
+git submodule update --init libraries/sky130_fd_sc_hvl/latest
 make sky130_fd_sc_hd
 
 cd $PDK_ROOT
